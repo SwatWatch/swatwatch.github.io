@@ -6,17 +6,101 @@
     <meta name="author" content="SwatWatch" />
     <style type="text/css">
         body {
-          background-color: rgb(115, 38, 35);
+            background-color: rgb(115, 38, 35);
+        }
+        header {
+            color: rgb(110, 110, 110);
         }
         h1 {
-          font-family: Georgia;
-          color: darkgray;
-          text-transform: uppercase;
-          text-align: center;
+            font-family: Georgia;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 500%;
+        }
+        h1.slogan {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        p.slogan {
+            text-align: center;
+            color: rgb(110, 110, 110);
+            font-size: 150%;
+            margin-bottom:15;
+        }
+        a:link {
+            text-decoration: none;
+            color: rgb(110, 110, 110);
+        }
+        ul {
+            text-align: center;
+        }
+        li {
+            text-align: center;
+            color: rgb(115, 38, 35);
+            display: inline;
+            border: 3px solid #0088dd;
+            font-size: 200%;
+            border-color: rgb(110, 110, 110);
+            border-radius: 15px;
+            background-color: rgb(110, 110, 110);
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        hr {
+            border-color: rgb(110, 110, 110);
+            margin-bottom: 25;
+        }
+        .body {
+            background-color: rgb(255, 255, 255);
+            color: rgb(115, 38, 35);
+            margin-top: 100px;
+            margin-left: 250px;
+            margin-right: 250px;
+            border-color: rgb(100, 100, 100);
+            border-radius: 25px;
+        }
+        p.body {
+            padding-bottom: 20px;
+            margin-top: 20px;
+            text-align: justify;
+            font-size: 125%;
+        }
+        h2.body {
+            text-align: center;
+            font-size: 200%;
+            padding-top: 25px;
         }
     </style>
 </head>
 <body>
-    <h1>SwatWatch</h1>
+<header>
+    <div>
+    <h1 class="slogan"><a href="http://swatwatch.github.io">SwatWatch</a></h1>
+    <p class="slogan">Keeping an eye on Donald Trump</p>
+    <hr>
+    </div>
+    <div>
+    <ul>
+        <li>Home</li>
+        <li>Profiles</li>
+        <li>Database</li>
+    </ul>
+    </div>
+</header>
+<div class="body">
+    <h2 class="body">Welcome to SwatWatch!</h2>
+    <p class="body">
+        We are a watchdog group made of students from Swarthmore and dedicated to
+        monitoring the activities of politicians enacting and implementing the policies
+        of Donald Trump. Our aim is to educate college students and facilitate political
+        activism against discriminatory legislation and practices.
+    </p>
+
+    <p class="body">test</p>
+</div>
 </body>
 </html>
