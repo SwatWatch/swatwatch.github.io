@@ -31,6 +31,10 @@
             text-decoration: none;
             color: rgb(110, 110, 110);
         }
+        a:visited {
+            text-decoration: none;
+            color: rgb(110, 110, 110);
+        }
         ul {
             text-align: center;
         }
@@ -74,13 +78,17 @@
             font-size: 200%;
             padding-top: 25px;
         }
+        .footer {
+          text-align: center;
+          font-size: 75%;
+          color: rgb(100, 100, 100);
+        }
     </style>
 </head>
 <body>
 <header>
     <div>
     <h1 class="slogan"><a href="http://swatwatch.github.io">SwatWatch</a></h1>
-    <p class="slogan">Keeping an eye on Donald Trump</p>
     <hr>
     </div>
     <div>
@@ -88,11 +96,12 @@
         <li>Home</li>
         <li>Profiles</li>
         <li>Database</li>
+        <li>Contact Us</li>
     </ul>
     </div>
 </header>
 <div class="body">
-    <h2 class="body">Welcome to SwatWatch!</h2>
+    <h2 class="body">Welcome to SwatWatch</h2>
     <p class="body">
         We are a watchdog group made of students from Swarthmore and dedicated to
         monitoring the activities of politicians enacting and implementing the policies
@@ -100,7 +109,22 @@
         activism against discriminatory legislation and practices.
     </p>
 
-    <p class="body">test</p>
+    <p class="body">
+        Our website contains both a database of legislation that has either been recently
+        enacted, is currently being discussed, or will be proposed in the near future, as
+        well as information on current political figures whose policies endanger or ouright
+        oppress groups of Americans, especially minorities.
+    </p>
+
+    <p class="body">
+       {?}
+    </p>
+</div>
+<div>
+    <hr>
+    <p class="footer">
+        Website maintained by SwatWatch.
+    </p>
 </div>
 </body>
 </html>
